@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "management.api",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "auth.api": "StartDebugging",
+        "identity.api": "StartDebugging",
+        "management.api": "StartDebugging"
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{1345B256-3816-404E-84E3-6F638F029E36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{40E6265B-A99C-4B7E-9BE0-5268732B263D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8F55FA9A-23CE-4BCC-A6B4-98CBE5304DCE}"
+	ProjectSection(SolutionItems) = preProject
+		help.txt = help.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{714668CF-8FBB-40C6-BB91-8E96E47A747B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Management", "Management", "{9625A453-699B-45E2-A5AF-46A3272FBD33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5735D661-B196-4E9E-9F62-539B88D530E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Apps", "Web Apps", "{C04C4B68-695C-41B1-8A03-208A9B035AC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateways", "APIGateways", "{F93D057A-CB83-4972-8DDB-9661FC7F1480}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.API", "Src\Microservices\Management\Management.API\Management.API.csproj", "{C2BAD55D-3FD0-41F0-8864-ED51D2BBA95B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerAspNetIdentity", "Src\Microservices\Identity\IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj", "{DF727181-4E1B-42FA-BA3F-B8639F5F332D}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Management.Client.ReactTS", "Src\Web Apps\Management.Client.ReactTS\Management.Client.ReactTS.esproj", "{319EC080-E131-43BF-A357-D859B624C068}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.Ocelot.APIGateway", "Src\APIGateways\Management.Ocelot.APIGateway\Management.Ocelot.APIGateway.csproj", "{52CDCA0F-E25B-4957-980D-50A3F162854A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2BAD55D-3FD0-41F0-8864-ED51D2BBA95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BAD55D-3FD0-41F0-8864-ED51D2BBA95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BAD55D-3FD0-41F0-8864-ED51D2BBA95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BAD55D-3FD0-41F0-8864-ED51D2BBA95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF727181-4E1B-42FA-BA3F-B8639F5F332D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF727181-4E1B-42FA-BA3F-B8639F5F332D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF727181-4E1B-42FA-BA3F-B8639F5F332D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF727181-4E1B-42FA-BA3F-B8639F5F332D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319EC080-E131-43BF-A357-D859B624C068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319EC080-E131-43BF-A357-D859B624C068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319EC080-E131-43BF-A357-D859B624C068}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{319EC080-E131-43BF-A357-D859B624C068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319EC080-E131-43BF-A357-D859B624C068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319EC080-E131-43BF-A357-D859B624C068}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{52CDCA0F-E25B-4957-980D-50A3F162854A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CDCA0F-E25B-4957-980D-50A3F162854A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CDCA0F-E25B-4957-980D-50A3F162854A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CDCA0F-E25B-4957-980D-50A3F162854A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40E6265B-A99C-4B7E-9BE0-5268732B263D} = {1345B256-3816-404E-84E3-6F638F029E36}
+		{714668CF-8FBB-40C6-BB91-8E96E47A747B} = {40E6265B-A99C-4B7E-9BE0-5268732B263D}
+		{9625A453-699B-45E2-A5AF-46A3272FBD33} = {40E6265B-A99C-4B7E-9BE0-5268732B263D}
+		{C04C4B68-695C-41B1-8A03-208A9B035AC3} = {1345B256-3816-404E-84E3-6F638F029E36}
+		{F93D057A-CB83-4972-8DDB-9661FC7F1480} = {1345B256-3816-404E-84E3-6F638F029E36}
+		{C2BAD55D-3FD0-41F0-8864-ED51D2BBA95B} = {9625A453-699B-45E2-A5AF-46A3272FBD33}
+		{DF727181-4E1B-42FA-BA3F-B8639F5F332D} = {714668CF-8FBB-40C6-BB91-8E96E47A747B}
+		{319EC080-E131-43BF-A357-D859B624C068} = {C04C4B68-695C-41B1-8A03-208A9B035AC3}
+		{52CDCA0F-E25B-4957-980D-50A3F162854A} = {F93D057A-CB83-4972-8DDB-9661FC7F1480}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26A4FD07-92CE-4F25-A3A6-A91EBA5C379C}
+	EndGlobalSection
+EndGlobal

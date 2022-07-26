@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  identity.api:
+    image: ${DOCKER_REGISTRY-}identityapi
+    build:
+      context: .
+      dockerfile: Src/Microservices/Identity/Identity.API/Dockerfile
+
+  auth.api:
+    image: ${DOCKER_REGISTRY-}authapi
+    build:
+      context: .
+      dockerfile: Src/Microservices/Identity/Auth.API/Dockerfile
+
+  management.api:
+    image: ${DOCKER_REGISTRY-}managementapi
+    build:
+      context: .
+      dockerfile: Src/Microservices/Management/Management.API/Dockerfile
